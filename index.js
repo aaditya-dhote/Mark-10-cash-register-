@@ -13,7 +13,7 @@ if(cashGiven.value>=billAmount.value){
     const amountToBeReturned = cashGiven.value - billAmount.value;
     calculateChange(amountToBeReturned);
 }
-    else{showMessage("Wanna wash plates");}
+    else{showMessage("Wanna wash plates/Bartan nikalo bhai");}
 
 }
 

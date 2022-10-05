@@ -1,130 +1,52 @@
-.container{
-display: flex;
-flex-direction: column;
-width:65vw;
-
-}
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
 body{font-family: "Josefin Sans";}
 
-:root{--primary-color:#0891b2;
---dark-grey: #475569;
---light-grey: #f1f5f9 ;}
-.container {
-  padding: 0rem 1 rem;
+body{
+  background-color: #0f766e;
+  color:white
+} 
 
-  
+h1{
+text-align: center;
 }
 
-.container-center{max-width: 1000px;
+.introPara{
+text-align: center;
+margin: 4rem;
+}
+
+.entries{
+  text-align: center;
+  margin:3rem;
+}
+
+.button{
+  text-align: center;
+}
+
+#error-message{
+  text-align: center;
+  margin:2rem;
+  font-size: xx-large;
+}
+
+.table{
+  margin-top:3rem;
+}
+
+table{
+  border:1px solid;
+  width:70vw;
+  text-align: center;
   margin: auto;
-text-align:center;}
-
-.links{
-  text-decoration: none;
-padding:0.5rem 1rem;
 }
 
-.link-primary{
-  background-color: var(--primary-color);
-  border-radius: 0.5rem;
-  color:white;
-  text-decoration: none;
-padding:0.5rem 1rem;
-}
-
-.link-secondary{
-  color: var(--primary-color);
-  border-radius: 0.5rem;
-  border:1.5px solid var(--primary-color);
-  text-decoration: none;
-padding:0.5rem 1rem;
-}
-
-.hr{margin: 2rem ;}
-
-.list-unbullet{
-list-style: none;
-}
-.list-inline
-{display: inline;
-  padding: 0rem 0.5 rem;
-}
-.footer-links{
+th,td{
+  border: 1px solid;
+  width: 15vw;
+  height:4rem;
   text-align: center;
 }
-
-
-
-
-/* navigation */
-
-.hero{
-  background-color: var(--primary-color);
-  color:white;
-  
-  font-weight: 400;
-  padding:0.5rem 0.5rem;
-  ;
-}
-.hero-nav{
-  border-bottom-left-radius: 1.5rem
-}
-.hero .links{
-  color:white;
-  text-align: right;
- 
-}
-.hero .list-unbullet{
-  text-align: right;
-}
-
-
-/* header */
-
-.head{
-  padding: 0.5rem;
-}
-.head-img{
-  max-width:350px;
-  display:block;
-  margin:auto;
-  
-}
-
-.head-txt{
-  text-align: center;
-  color:var(--dark-grey);
-}
-
-.head-txt .span{
-  color:var(--primary-color); 
-}
-
-.head-hl{
-  color:var(--primary-color)
-}
-
-.tech-head{
-  text-align: center;
-}
-
-.technologies{
-  
-  background-color: var(--light-grey);
-  border-radius: 0.5rem;
- padding:1rem;
- 
-}
-
-.hero-footer{
-  border-top-right-radius: 1rem;
-}
-
-.margin{
-  margin-top: 2rem;
-}
-
