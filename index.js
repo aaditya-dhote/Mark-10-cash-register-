@@ -7,10 +7,13 @@ const availableNotes=[2000,500,100,20,10,5,1];
 
 checkButton.addEventListener ("click",function validateBillAndCashAmount(){
 hideMessage();
-
+var casher=Number(cashGiven.value);
+    var biller=Number(billAmount.value);
+    
 if(billAmount.value>0){
-if(cashGiven.value>=billAmount.value){
-    const amountToBeReturned = cashGiven.value - billAmount.value;
+if(casher>=biller){
+    const amountToBeReturned = (casher - biller);
+    console.log(amountToBeReturned);
     calculateChange(amountToBeReturned);
 }
     else{showMessage("Wanna wash plates/Bartan nikalo bhai");}
